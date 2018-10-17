@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/qb_px_8">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_history"
+        android:layout_marginStart="@dimen/qb_px_10"
+        />
+    <TextView
+        android:id="@+id/tv_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="面试"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/qb_px_10"
+        android:textSize="16sp"
+        />
+</RelativeLayout>

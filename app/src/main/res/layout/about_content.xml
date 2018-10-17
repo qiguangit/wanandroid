@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_us_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/qb_px_25"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ll_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/qb_px_80"
+            android:layout_height="@dimen/qb_px_80"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_awesome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/awesome_wan_android" />
+
+        <TextView
+            android:id="@+id/tv_about_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            tools:text="@string/about_content"
+            android:layout_marginStart="@dimen/qb_px_6"
+            android:layout_marginEnd="@dimen/qb_px_6"
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

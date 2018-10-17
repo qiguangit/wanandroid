@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/qb_px_8"
+        android:paddingEnd="@dimen/qb_px_5"
+        android:paddingStart="@dimen/qb_px_5"
+        android:paddingTop="@dimen/qb_px_8">
+
+        <include layout="@layout/common_setting" />
+
+        <include layout="@layout/other_setting" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">玩Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="awesome_wan_android">玩Android</string>
+    <string name="title_home">首页</string>
+    <string name="title_tree">知识体系</string>
+    <string name="title_navigation">导航</string>
+    <string name="title_project">项目</string>
+    <string name="error_gif">长宽不小于 %1$dpx，且大小不超过 %2$sM。</string>
+    <string name="about_content">
+        <![CDATA[
+        <h2>技术框架</h2>
+        <p>\t\t玩Android基于当前Android开发中常用的主流技术框架</p>
+        <p>\t\tMVP+Rxjava2+Retrofit2+okhttp3+EventBus</p>
+        <h2>UI和技术参考</h2>
+        <p>\t\t感谢<a href="https://github.com/JsonChao/Awesome-WanAndroid">Awesome WanAndroid</a>开源项目</p>
+        <h2>API</h2>
+        <p>\t\t感谢鸿洋大神提供的<a href="http://wanandroid.com/">wanandroid API</a></p>
+        <h2>源码</h2>
+        <p>\t\t<a href="http://github.com/qiguangit/wanandroid">https://github.com/qiguangit/wanandroid</a></p>
+        <h2>建议和反馈</h2>
+        <p>\t\t如果您有什么建议或反馈，可通过APP自带的反馈功能进行反馈，或者给我发email <b color="#ff0000">qiguangit@foxmail.com</b></p>
+    ]]>
+    </string>
+</resources>

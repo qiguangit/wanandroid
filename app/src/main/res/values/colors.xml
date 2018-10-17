@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="yellow">#f39c12</color>
+    <color name="delete_text">#cccccc</color>
+    <color name="black">#000000</color>
+    <color name="gray">#55000000</color>
+
+    <color name="grey_search">#FF999999</color>
+    <color name="shallow_green">#FF36BC9B</color>
+    <!--白天模式-->
+    <color name="backgroundColor">#ffffff</color>
+    <color name="navTitleUnChecked">#33000000</color>
+    <color name="navTitleChecked">#ffffff</color>
+    <color name="flow_color">#11000000</color>
+    <color name="indicatorBgColor">#07c5f4</color>
+    <color name="indicator">#40c4ff</color>
+    <color name="itemTextColor">#cc000000</color>
+    <color name="itemIconTint">#cc000000</color>
+    <color name="commitBg">#35b3e5</color>
+    <color name="commitTextColor">#ffffff</color>
+
+    <!--对话框-->
+    <color name="dialog_bg">#ffffff</color>
+</resources>

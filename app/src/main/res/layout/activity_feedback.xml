@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_gradient_bg"
+            app:navigationIcon="?attr/homeAsUpIndicator">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="意见反馈"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_250">
+
+                <EditText
+                    android:id="@+id/et_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_250"
+                    android:layout_marginEnd="@dimen/qb_px_18"
+                    android:layout_marginStart="@dimen/qb_px_18"
+                    android:layout_marginTop="@dimen/qb_px_18"
+                    android:background="@drawable/shape_edittext_bg"
+                    android:gravity="start|top"
+                    android:hint="有想法就告诉我吧"
+                    android:padding="@dimen/qb_px_16"
+                    android:textSize="14sp" />
+
+                <!--<ImageView-->
+                <!--android:id="@+id/iv_images"-->
+                <!--android:layout_width="@dimen/qb_px_50"-->
+                <!--android:layout_height="@dimen/qb_px_50"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_marginBottom="@dimen/qb_px_18"-->
+                <!--android:layout_marginStart="@dimen/qb_px_32"-->
+                <!--android:layout_marginTop="@dimen/qb_px_18"-->
+                <!--android:src="@drawable/images" />-->
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/qb_px_18"
+                android:layout_marginEnd="@dimen/qb_px_32"
+                android:layout_marginStart="@dimen/qb_px_32"
+                android:layout_marginTop="@dimen/qb_px_18"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_add_image"
+                    android:layout_width="@dimen/qb_px_45"
+                    android:layout_height="@dimen/qb_px_45"
+                    android:src="@drawable/ic_add_image" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/qb_px_18"
+                android:layout_marginStart="@dimen/qb_px_18"
+                android:layout_marginTop="@dimen/qb_px_10"
+                android:background="@drawable/shape_edittext_bg"
+                android:hint="请输入您的手机号/QQ/邮箱 (选填)"
+                android:padding="@dimen/qb_px_10"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/qb_px_18"
+                android:layout_marginStart="@dimen/qb_px_18"
+                android:layout_marginTop="@dimen/qb_px_28"
+                android:background="@color/commitBg"
+                android:text="提交反馈"
+                android:textColor="@color/commitTextColor" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
